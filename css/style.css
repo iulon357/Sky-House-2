@@ -1,7 +1,80 @@
+@font-face {
+  font-family: "Helvetica Neue Lights";
+  src: url(/fonts/HELVETICANEUELTGEO-45LIGHTS.TTF);
+}
 
+@font-face {
+  font-family: "Helvetica Neue Roman";
+  src: url(/fonts/HELVETICANEUELTGEO-55ROMAN.TTF);
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a22f4;
+}
+
+main {
+  color: #ffffff;
+  margin: 50px 0px 0px 120px;
+}
+
+h1 {
+  font-family: "Helvetica Neue Roman";
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.text {
+  font-family: "Helvetica Neue Lights";
+  font-size: 16px;
+  font-weight: bold;
+  width: 463px;
+  height: 99px;
+  margin-top: 30px;
+}
+
+iframe {
+  width: 463px;
+  height: 197px;
+  border-radius: 15px;
+  margin-top: 58px;
+}
+
+.contact-form {
+  font-family: "Helvetica Neue Roman";
+  font-size: 22px;
+  margin-top: 45px;
+  display: inline;
+}
+
+.reg-form-box {
+  width: 463px;
+  height: 60px;
+  border-bottom: 1px solid #ffffff;
+  font-family: "Helvetica Neue Roman";
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.button {
+  margin-top: 60px;
+  background-color: #ffffff;
+  color: #171717;
+  font-family: "Helvetica Neue Roman";
+  font-weight: bold;
+  font-size: 16px;
+  width: 151px;
+  height: 55px;
+  padding: 18px 36px;
+  border-radius: 28px;
+  
+}
+
+a:link {
+  text-decoration: none;
 }
